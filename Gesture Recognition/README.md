@@ -53,10 +53,10 @@ Press `Q` or `Esc` to quit.
 
 ## How It Works
 
-- **Finger detection** — measures joint angles at each PIP joint to compute a curl score (0.0 = extended, 1.0 = curled). Fingers with a curl score below 0.4 are counted as extended.
-- **Thumb detection** — uses the MCP joint angle and tip distance from the index finger base for reliable left/right hand handling.
-- **Temporal smoothing** — gesture labels are smoothed over a 10-frame rolling window using majority vote, eliminating flicker on borderline frames.
-- **UI** — frosted bottom panel with centered gesture name, per-finger indicator bar (T I M R P), and FPS counter. Hand skeleton uses custom drawing with gold fingertip highlights.
+- **Finger detection** - measures joint angles at each PIP joint to compute a curl score (0.0 = extended, 1.0 = curled). Fingers with a curl score below 0.4 are counted as extended.
+- **Thumb detection** - uses the MCP joint angle and tip distance from the index finger base for reliable left/right hand handling.
+- **Temporal smoothing** - gesture labels are smoothed over a 10-frame rolling window using majority vote, eliminating flicker on borderline frames.
+- **UI** - frosted bottom panel with centered gesture name, per-finger indicator bar (T I M R P), and FPS counter.
 
 ---
 
