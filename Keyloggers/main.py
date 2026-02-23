@@ -7,9 +7,9 @@ import os
 
 log_file = "log.txt"
 
-sender_email = "jrbotics.eshwarg@gmail.com"  
-sender_password = "ltmb cfeo vbth llux"  
-recipient_email = "eshwarg1432@gmail.com"  
+sender_email = ""  
+sender_password = ""  
+recipient_email = ""  
 smtp_server = "smtp.gmail.com"
 smtp_port = 587
 
