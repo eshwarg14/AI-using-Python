@@ -2,9 +2,7 @@
 
 Real-time hand gesture recognition using MediaPipe and OpenCV. Detects 11 gestures via webcam with temporal smoothing and a clean HUD overlay.
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?style=flat-square)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-orange?style=flat-square)
+(Images/GR1.png)
 
 ---
 
