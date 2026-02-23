@@ -2,7 +2,7 @@
 
 Real-time hand gesture recognition using MediaPipe and OpenCV. Detects 11 gestures via webcam with temporal smoothing and a clean HUD overlay.
 
-(https://github.com/eshwarg14/AI-using-Python/blob/15d8466c35115298b9c3d290fc9cf2bc171f2f6b/Images/GR1.png)
+(https://github.com/eshwarg14/AI-using-Python/raw/15d8466c35115298b9c3d290fc9cf2bc171f2f6b/Images/GR1.png)
 
 ---
 
