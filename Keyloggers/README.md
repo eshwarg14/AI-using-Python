@@ -116,17 +116,6 @@ We do not support or encourage unethical usage of this project.
 
 ------------------------------------------------------------------------
 
-## 👥 Authors
-
-Developed by:
-
--   Eshwar G
--   Shivani R
-
-BSc Statistics & Computer Science
-
-------------------------------------------------------------------------
-
 ## 🚨 Final Note
 
 This repository is meant to demonstrate technical concepts and raise
